@@ -4,17 +4,24 @@ import '../../styles/Main.css';
 import { translate } from "react-i18next";
 
 class Main extends Component {
-    state = {
-        hover: false,
-        index: null
-    };
+    lang;
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            hover: false,
+            index: null
+        };
+        this.lang = props.i18n.language;
+    }
 
     onHoverOn = (index) => this.setState({hover: true, index: index});
     onHoverOff = (index) => this.setState({hover: false, index: index});
 
     render() {
-        const { i18n } = this.props, lang = i18n.language, langSection = i18n.store.data[lang],
+        const { i18n } = this.props, langSection = i18n.store.data[this.lang],
             langSectionData = langSection.translations.data;
+        console.log(this.lang)
         return (
             <div className="wm_main">
                 {langSectionData.map((course, index) =>
