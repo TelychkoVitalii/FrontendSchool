@@ -13,10 +13,11 @@ class Main extends Component {
     onHoverOff = (index) => this.setState({hover: false, index: index});
 
     render() {
-        const { i18n } = this.props, langSection = i18n.store.data[i18n.language].translations.data;
+        const { i18n } = this.props, langSection = i18n.store.data[i18n.language],
+            langSectionData = langSection.translations.data;
         return (
             <div className="wm_main">
-                {langSection.map((course, index) =>
+                {langSectionData.map((course, index) =>
                         <Link key={index}
                               to={`/course/${course.subject}`}
                               onMouseEnter={() => this.onHoverOn(course.id)}
