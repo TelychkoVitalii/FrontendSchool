@@ -1,0 +1,167 @@
+.path {
+    animation: fadein 2s;
+}
+
+.pathTitle {
+    display: block;
+    position: absolute;
+    width: 90px;
+    z-index: 999;
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.bgc {
+    height: 600px;
+    background: url("../assets/Toronto-Skyline-Black-And-White.jpg") no-repeat center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+a {
+    color: white;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.num {
+    position: absolute;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: black;
+    font-weight: 800;
+}
+.num1 {
+    top: 125px;
+    left: 145px;
+}
+
+.num2 {
+    top: 350px;
+    left: 300px;
+}
+
+.num3 {
+    top: 145px;
+    left: 530px;
+}
+
+.num4 {
+    top: 395px;
+    right: 585px;
+}
+
+.num5 {
+    top: 92px;
+    right: 390px;
+}
+
+.num6 {
+    top: 340px;
+    right: 175px;
+}
+
+.lang {
+    display: block;
+    position: absolute;
+    width: 90px;
+    z-index: 999;
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: white;
+}
+
+.lang:hover {
+    font-size: 17px;
+    transition: .2s;
+}
+
+.htmlcss {
+    top: 25%;
+    left: 8%;
+}
+
+.js {
+    top: 47%;
+    left: 19.5%;
+}
+
+.react {
+    top: 28%;
+    left: 36%;
+}
+
+.redux {
+    top: 54%;
+    left: 52%;
+}
+
+.angular {
+    top: 20%;
+    right: 26%;
+}
+
+.algorithms {
+    top: 45%;
+    right: 10%;
+}
+
+.first {
+    width: 220px;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: rotate(40deg);
+}
+
+.second {
+    width: 270px;
+    position: absolute;
+    top: 38%;
+    left: 22%;
+    transform: rotate(-25deg);
+}
+
+.third {
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    transform: rotate(35deg);
+}
+
+.forth {
+    width: 340px;
+    position: absolute;
+    top: 38%;
+    right: 24%;
+    transform: rotate(-47deg);
+}
+
+.fifth {
+    width: 290px;
+    position: absolute;
+    top: 34%;
+    right: 11%;
+    transform: rotate(35deg);
+}

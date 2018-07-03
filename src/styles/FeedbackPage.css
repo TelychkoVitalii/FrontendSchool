@@ -1,0 +1,52 @@
+.feedback_main {
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    width: 99.5%;
+    height: 518px;
+    padding: 30px 30px 20px 30px;
+    animation: fadein 2s;
+}
+
+.bgcFeedback {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: url("../assets/feedback.jpg") no-repeat center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.link_logo {
+    display: inline;
+    float: right;
+    margin: -103px -8px 0 0;
+    width: 5%;
+    height: 5%;
+}
+
+.feedbackText {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.feedback_main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 13rem;
+    width: 82%;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

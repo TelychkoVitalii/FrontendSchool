@@ -1,0 +1,148 @@
+.courseDetails {
+    padding: 0 12rem;
+    animation: fadein 1s;
+    background-color: #f8f8f8;
+    height: 600px;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.courseHeader {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.courseBody {
+    display: flex;
+    padding-top: 20px;
+}
+
+.courseBodyProgram {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding-right: 25px;
+    border-right: 1px solid black;
+}
+
+.courseBodyInfo {
+    width: 30rem;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.courseBodyInfo div {
+    padding-bottom: 10px;
+}
+
+.quantity {
+    font-size: 20px;
+    color: darkorange;
+}
+
+a {
+    text-decoration: none;
+}
+
+.firstLessonInfo {
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.courseProgramTitle {
+    font-size: 20px;
+}
+
+.courseProgramInfoTitle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.programListItem {
+    padding: 3px 0;
+    text-align: left;
+}
+
+.courseTitle {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.availability {
+    font-size: 12px;
+    color: orangered;
+    margin-left: 10px;
+}
+
+.courseDuration {
+    padding-top: 20px;
+    margin-left: auto;
+}
+
+.courseDuration span, .courseNearest span {
+    font-size: 20px;
+}
+
+.courseNearest {
+    padding: 20px 0 0 50px;
+}
+.mainButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.enrollButton {
+    padding: 15px;
+}
+
+.submitButton {
+    display: block;
+    background-color: darkorange;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+    outline: none;
+    padding: 10px 18px;
+    margin: 8px auto;
+}
+
+.submitButton a {
+    color: white;
+}
+.submitButton:hover {
+    -webkit-box-shadow: 0 0 13px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 13px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.75);
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+.downloadInfo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    padding: 20px 5px 0 25px;
+}
+
+.downloadInfo div {
+    margin: 0 0 18px 30px;
+    padding: 10px 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

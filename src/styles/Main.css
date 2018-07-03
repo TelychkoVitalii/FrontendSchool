@@ -1,0 +1,38 @@
+.wm_main {
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    grid-gap: 40px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 30px 180px;
+    background: url("../assets/ny.jpg") no-repeat;
+    background-size: cover;
+}
+
+.sectionInterface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.sectionInterface:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.shortDescription {
+    text-align: center;
+    font-size: 1.0rem;
+    line-height: 1.2;
+}

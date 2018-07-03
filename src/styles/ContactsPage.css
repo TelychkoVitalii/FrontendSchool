@@ -1,0 +1,58 @@
+.contacts {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.bgcContacts {
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    height: 650px;
+    background: url("../assets/contacts.jpg") no-repeat center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    padding: 20px;
+    margin: 7% 37%;
+    border-radius: 5px;
+    color: white;
+    font: 600 17px/26px 'Source Code Pro', monospace;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    animation: fadeIn .6s;
+}
+
+.fas {
+    padding: 0 10px 20px 0;
+    text-align: left;
+    color: darkorange;
+    font-size: 20px;
+}
+
+.containerContact span {
+    font-size: 20px;
+}
+
+.containerContact .emailContact:hover, .containerContact .skypeContact:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

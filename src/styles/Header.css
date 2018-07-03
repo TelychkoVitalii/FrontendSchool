@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    position: relative;
+    height: 3.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav {
+    display: inherit;
+    width: 100%;
+    padding: 0 11rem;
+    list-style-type: none;
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+
+.brand {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: -0.2rem 1.5rem 0 0;
+}
+
+.brandLink {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#brandName {
+    color: darkorange;
+}
+
+.navLink {
+    padding-top: 0.3rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navLink {
+    width: 12%;
+}
+
+.navLink a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.separator {
+    padding-top: 0.3rem;
+}
+
+.active {
+    font-weight: 900;
+}

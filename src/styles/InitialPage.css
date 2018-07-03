@@ -1,0 +1,20 @@
+.initialBlock {
+    margin: 200px 0 0 0;
+    text-align: center;
+    animation: fade 5s linear;
+}
+
+q {
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+}
+
+.author {
+    margin-top: 22px;
+    font-family: 'EB Garamond', serif;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+}
