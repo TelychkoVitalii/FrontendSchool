@@ -22,7 +22,8 @@ class Main extends Component {
     onHoverOff = (index) => this.setState({hover: false, index: index});
 
     render() {
-        const langSection = this.i18n.store.data[this.lang], langSectionData = langSection.translations.data;
+        const langSection = this.i18n.store.data[this.lang],
+              langSectionData = langSection.translations.data;
 
         return (
             <div className="wm_main">

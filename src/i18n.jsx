@@ -188,7 +188,7 @@ i18n.use(LanguageDetector).init({
         formatSeparator: ","
     },
     react: {
-        wait: false,
+        wait: true,
         nsMode: 'default'
     }
 });
