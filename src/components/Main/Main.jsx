@@ -5,6 +5,7 @@ import { translate } from "react-i18next";
 
 class Main extends Component {
     lang;
+    i18n;
 
     constructor(props) {
         super(props);
@@ -12,6 +13,8 @@ class Main extends Component {
             hover: false,
             index: null
         };
+
+        this.i18n = props.i18n;
         this.lang = props.i18n.language;
     }
 
@@ -19,9 +22,8 @@ class Main extends Component {
     onHoverOff = (index) => this.setState({hover: false, index: index});
 
     render() {
-        const { i18n } = this.props, langSection = i18n.store.data[this.lang],
-            langSectionData = langSection.translations.data;
-        console.log(this.lang)
+        const langSection = this.i18n.store.data[this.lang], langSectionData = langSection.translations.data;
+
         return (
             <div className="wm_main">
                 {langSectionData.map((course, index) =>
