@@ -1,13 +1,10 @@
 import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import data_en from './locales/data_en.json';
-import data_ru from './locales/data_ru.json';
 
 i18n.use(LanguageDetector).init({
     resources: {
         en: {
             translations: {
-                data: data_en,
                 about: 'About',
                 aboutTextIntro1: 'Frontend School is a school in which to learn to think.',
                 aboutTextIntro2: 'This is a school in which learning takes place remotely and individually.',
@@ -94,7 +91,6 @@ i18n.use(LanguageDetector).init({
         },
         ru: {
             translations: {
-                data: data_ru,
                 about: 'Про нас',
                 aboutTextIntro1: 'Frontend School - это школа, в которой учат думать.',
                 aboutTextIntro2: 'Это школа, в которой обучение происходит удаленно и индивидуально.',
