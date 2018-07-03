@@ -15,6 +15,7 @@ class Main extends Component {
     render() {
         const { i18n } = this.props, langSection = i18n.store.data[i18n.language],
             langSectionData = langSection.translations.data;
+        console.log(langSection.translations);
         return (
             <div className="wm_main">
                 {langSectionData.map((course, index) =>
