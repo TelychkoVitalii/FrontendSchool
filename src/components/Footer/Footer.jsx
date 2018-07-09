@@ -15,7 +15,7 @@ function Footer(props) {
                 <span>&copy; Frontend School 2018</span>
                 <div className='addLinks'>
                     <a href="http://linguacloud-skype.com.ua/" className='english' target='_blank' rel="noopener noreferrer">{t('english')}</a>
-                    <NavLink to='/materials' activeClassName='active' className='materials'>{t('materials')}</NavLink>
+                    <NavLink to='/materials' activeclassname='active' className='materials'>{t('materials')}</NavLink>
                 </div>
                 <div className='socials'>
                     <a href="mailto:newme1989.5@gmail.com?subject=Здравствуйте. Хочу изучать фронтенд!">

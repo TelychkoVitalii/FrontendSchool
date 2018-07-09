@@ -12,14 +12,14 @@ class PathPage extends Component {
                 <div className='bgc' />
                 <div className='num num1'>1</div>
                 <div data-tip='html' data-for='html' className='lang htmlcss'>
-                    <Link to='/course/HTML/CSS'>HTML/CSS</Link>
+                    <Link to='/HTML-CSS'>HTML/CSS</Link>
                 <ReactTooltip id='html' multiline={true}>
                     <div>{t('html1')} <br/> {t('html2')} <br/> {t('html3')}</div>
                 </ReactTooltip>
                 </div>
                 <hr className='first'/>
                 <div data-tip='js' data-for='js' className='lang js'>
-                    <Link to='/course/Javascript'>Javascript</Link>
+                    <Link to='/Javascript'>Javascript</Link>
                 <ReactTooltip id='js' multiline={true}>
                     <div>{t('js1')} <br/> {t('js2')} <br/> {t('js3')}</div>
                 </ReactTooltip>
@@ -28,13 +28,13 @@ class PathPage extends Component {
                 <hr className='second'/>
                 <div className='num num3'>3</div>
                 <div data-tip='react' data-for='react' className='lang react'>
-                    <Link to='/course/React'>React</Link>
+                    <Link to='/React'>React</Link>
                     <ReactTooltip id='react' multiline={true}>
                         <div>{t('react1')} <br/> {t('react2')} <br/> {t('react3')}</div>
                     </ReactTooltip>
                 </div>
                 <div data-tip='redux' data-for='redux' className='lang redux'>
-                    <Link to='/course/Redux'>Redux/Mobx</Link>
+                    <Link to='/Redux'>Redux</Link>
                     <ReactTooltip id='redux' multiline={true}>
                         <div>{t('redux1')} <br/> {t('redux2')} <br/> {t('redux3')}</div>
                     </ReactTooltip>
@@ -43,14 +43,14 @@ class PathPage extends Component {
                 <hr className='third'/>
                 <div className='num num5'>5</div>
                 <div data-tip='angular' data-for='angular' className='lang angular'>
-                    <Link to='/course/Angular'>Angular</Link>
+                    <Link to='/Angular'>Angular</Link>
                     <ReactTooltip id='angular' multiline={true}>
                         <div>{t('angular1')} <br/> {t('angular2')} <br/> {t('angular3')}</div>
                     </ReactTooltip>
                 </div>
                 <div className='num num5'>5</div>
                 <div data-tip='algorithms' data-for='algorithms' className='lang algorithms'>
-                    <Link to='/course/Algorithms'>Algorithms</Link>
+                    <Link to='/Algorithms'>Algorithms</Link>
                     <ReactTooltip id='algorithms' multiline={true}>
                         <div>{t('algorithms1')} <br/> {t('algorithms2')} <br/> {t('algorithms3')}</div>
                     </ReactTooltip>

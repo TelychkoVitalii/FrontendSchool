@@ -35,7 +35,7 @@ class App extends Component {
                             <Route path="/path" component={PathPage} />
                             <Route path="/feedback" component={FeedbackPage} />
                             <Route path="/contacts" component={ContactsPage} />
-                            <Route path="/course/:id" component={CourseDetailsPage} />
+                            <Route path="/:id" component={CourseDetailsPage} />
                             <Route path="/materials" component={Materials} />
                             <Route render={() => <h1>404 Page not found</h1>}/>
                         </Switch>
